@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Nova Flat';	
+}
+
+
+
+header{
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 50px 0;
+}
+
+
+#box{
+	background-color: grey;
+	border: black 3px solid;
+	margin: 20px;
+}
+
+.nadpis{
+	text-align: center;	
+	display: block;
+	font-size: 20px;
+	border: black 3px solid;
+	border-top: 0;
+	border-right: 0;
+	width: 100px;
+	float: right; 
+}
+
+.nadpis1{
+	background: green;
+	color: white;
+}
+.nadpis2{
+	background: pink;
+}
+.nadpis3{
+	background: yellow;
+}
+.text{
+	display: block;
+	margin: 40px 0 10px 0;
+}
+
+@media (min-width: 992px) {
+	.respbox
+	{
+	float: left;
+	width: 33.3%;
+	}}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.respbox 
+	{
+	float: left;
+	width: 50%;
+	}
+   .respbox1 
+	{
+	float: left;
+	width: 100%;
+	}
+
+@media (max-width: 768px) {
+	.respbox 
+	{
+	float: left;
+	width: 100%;
+	}
+}

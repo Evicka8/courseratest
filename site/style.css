@@ -3,15 +3,12 @@
 	font-family: 'Nova Flat';	
 }
 
-
-
 header{
 	font-weight: bold;
 	text-align: center;
 	font-size: 24px;
 	margin: 20px 0 50px 0;
 }
-
 
 #box{
 	background-color: grey;
@@ -40,6 +37,7 @@ header{
 .nadpis3{
 	background: yellow;
 }
+
 p {
 	display: block;
 	margin: 40px 0 10px 0;

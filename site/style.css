@@ -10,7 +10,7 @@ header{
 	margin: 20px 0 50px 0;
 }
 
-#box{
+.box{
 	background-color: grey;
 	border: black 3px solid;
 	margin: 20px;
@@ -52,21 +52,18 @@ p {
 	}}
 
 @media (min-width: 768px) and (max-width: 992px) {
-	.respbox 
-	{
+	.respbox {
 	float: left;
 	width: 50%;
 	}
-   .respbox1 
-	{
+   .respbox1 {
 	float: left;
 	width: 100%;
-	}
+	}}
 
 @media (max-width: 768px) {
 	.respbox 
 	{
 	float: left;
 	width: 100%;
-	}
-}
+	}}

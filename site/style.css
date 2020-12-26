@@ -40,9 +40,10 @@ header{
 .nadpis3{
 	background: yellow;
 }
-.text{
+p {
 	display: block;
 	margin: 40px 0 10px 0;
+	padding: 0 10px 0 10px;
 }
 
 @media (min-width: 992px) {
